@@ -1,8 +1,9 @@
 #!/usr/bin/perl -I /home/marco/Perl/site/lib -I /home/ema/Perl/site/lib
+
 #ARGUMENTS:
 #input_file_1: FASTA file including all the query sequences
 #input_file_2: The name of the FASTA file of the source genome, i.e. the one embedding the sequences in <input_file_1> 
-#input_file_3: Relative path to the folder containing the genomes that you want to scan for the presence of the queries in #input_file_1
+#input_file_3: Relative path to the folder containing the genomes that you want to scan for the presence of the queries in #input_file_1 fasta file
 
 #OUTPUT
 #file BBH_of_query_N.txt.txt con best bi-directional hits per ciascuna query
