@@ -6,9 +6,7 @@
 #input_file_3: Relative path to the folder containing the genomes that you want to scan for the presence of the queries in #input_file_1 fasta file
 
 #OUTPUT
-#file BBH_of_query_N.txt.txt con best bi-directional hits per ciascuna query
-#altri file di output: le sequenze del file di partenza divise in altrettanti file  numerati in base all'ordine in cui appaiono.
-#output riassuntivo tabulare. 
+#BBH_of_query_N.txt. text file with orthologs for each query
 use locale;
 #use strict;
 
